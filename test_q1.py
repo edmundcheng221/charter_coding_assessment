@@ -2,7 +2,7 @@ import unittest
 from q1 import formatString
 
 
-class TestAlphabetRange(unittest.TestCase):
+class Teststring(unittest.TestCase):
     def test_one(self):
         output = formatString("xxxxyyyyxx", 1)
         expected = 'xyx'
