@@ -2,7 +2,7 @@ import unittest
 from q2 import pricing
 
 
-class TestAlphabetRange(unittest.TestCase):
+class Testprice(unittest.TestCase):
     def test_one(self):
         output = pricing('Trolly', 2, 'Hourly', 3.0)
         expected = 720.0
